@@ -9,6 +9,9 @@ jobs:
           - run:
               name: Install Dependencs
               command: yarn
+          - run:
+              name: Run Tests
+              command: yarn test    
 workflows:
     version: 2
     test:
